@@ -4,10 +4,10 @@ Python script to cp a group of files in a TEMP dir, and then tar-gz each and rem
 ## Usage
 
 1. Edit the file PyTarGz.py and change the following variables:
-     * os.chdir(<path of files>) this is the main directory where logs or whatever reside that need compression.
-     * file = glob.glob("<pattern>") change the <pattern> section (hint: "*nameof file[!.gz]" would do all files with matching names but those endingin .gz)
-     * source = "<path>" (this is the path of the source files up to the {})
-     * target = "<path>" (this isthe target files into the newly created TEMP directory (for backups))
+     * *os.chdir(<path of files>)* this is the main directory where logs or whatever reside that need compression.
+     * *file = glob.glob("<pattern>")* change the <pattern> section (hint: "*nameof file[!.gz]" would do all files with matching names but those ending in .gz)
+     * *source = "<path>"* (this is the path of the source files up to the {})
+     * *target = "<path>"* (this isthe target files into the newly created TEMP directory (for backups))
 2. Then just execute with sudo python PyTarGz.py
 3. Enjoy cleaned directory
 4. (if all is well, you can now delete the TEMP directory)
