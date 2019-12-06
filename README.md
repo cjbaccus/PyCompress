@@ -12,6 +12,9 @@ Python script to cp a group of files in a TEMP dir, and then tar-gz each and rem
 3. Enjoy cleaned directory
 4. (if all is well, you can now delete the TEMP directory)
 
+## Bonus
+The CreateDummyLog.py file is executed to literally create about 20 log files that are filled with bogus data...but about 1.7M and will compress to about 3.2k.  enjoy!
+
 ## future plans
 probably going to make this into a class with several functions, that can then just be called in an interactive shell (easier)
 
